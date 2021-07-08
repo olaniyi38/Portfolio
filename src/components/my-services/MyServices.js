@@ -7,18 +7,24 @@ import fastWebPng from '../../media/pngs/fast-access.png'
 import { useEffect } from "react"
 import ScrollTrigger from "gsap/ScrollTrigger"
 
+
 const MyServices = () => {
+    gsap.registerPlugin(ScrollTrigger)
+
    let tl =gsap.timeline()
     useEffect(()=>{
         tl.from('#my-services .service-card',{
-            y:50,
+            y:-50,
             opacity:0,
-            duration:1,
+            duration:2,
             stagger:.5,
-            scrollTrigger:'#my-services'
+            scrollTrigger:{
+                trigger:'#my-services',
+                start:'center bottom'
+            }
         })
     })
-
+    
 
     return (
         <div id="my-services">

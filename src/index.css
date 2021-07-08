@@ -247,6 +247,7 @@ transition: all .5s linear;
 }
 
 /*projects*/
+
 #my-projects{
     background-color: var(--black--);
     color: white;
@@ -276,11 +277,13 @@ transition: all .5s linear;
  width: 100%;
  height: 0%;
  background-color: rgba(0, 0, 0, 0.438);
- transition: all .5s linear;
+ transition: all .15s linear;
 }
 #my-projects .project .project-img:hover .visit{
  opacity: 1;
  height: 100%; 
+ -webkit-backdrop-filter: blur(5px);
+ backdrop-filter: blur(5px);
 }
 #my-projects .project .about-project{
     flex-basis: 50%;
@@ -299,7 +302,12 @@ transition: all .5s linear;
 #my-projects .project .project-img img{
     width: 100%;
     height: 100%;
+    transition: all .3s ease-in-out;
 }
+#my-projects .project .project-img:hover img{
+    transform: scale(1.1);
+}
+
 
 /*my skills*/
 
@@ -351,6 +359,7 @@ padding: 3.6rem 0rem;
 }
 
 /*Footer*/
+
 #footer{
     padding: 2rem 0rem 1rem 0rem;
     text-align: center;
@@ -394,7 +403,7 @@ padding: 3.6rem 0rem;
   }
   #about-me .container{
       width: 90%;
-      font-size: 1.1rem;
+      font-size: 1rem;
   }
   #my-services{
       padding: 2rem 0rem 0rem 0rem;
