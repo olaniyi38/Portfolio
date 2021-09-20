@@ -183,7 +183,6 @@ transition: all .2s cubic-bezier(0.08, 0.14, 1, 1.67);
 #intro .container div{
     padding-bottom: 50px;
 }
-
 #intro .illustration img{
     height: 300px;
   

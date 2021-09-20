@@ -10,10 +10,15 @@ import Footer from "./components/footer/Footer"
 
 
 function App(){
+<<<<<<< HEAD
 
   return (
        <>
        
+=======
+  return (
+       <>
+>>>>>>> 6e81457d72e99113136f878ef338bede3c204709
            <Header/>      
            <Intro/>
            <AboutMe/>
