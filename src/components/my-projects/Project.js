@@ -1,32 +1,36 @@
-import Button from '@material-ui/core/Button/Button'
 import {Link} from '@material-ui/icons/'
+import { Card, CardContent, CardMedia,Button } from "@material-ui/core"
 
-
-const Project = ({src,name,about,languages}) => {
+const Project = ({src,name,about,languages,link}) => {
 return (
-<div className="project">
-    <div className="project-img">
-        <img src={src}  alt="" />
-        <div className="visit">
-            <Button variant="contained">Visit Website
-                <Link /> </Button>
-        </div>
-    </div>
-    <div className="about-project" style={{position:'relative'}}>
-        <h3>{name}</h3>
-        <p className='about'>
-            {about}
-        </p>
-            <p className="languages" style={{
-                 position:' absolute',
-                 bottom: '20px',
-                 fontWeight:'700'
+    <>
+        <Card className="project">
+            <CardMedia className="project-img">
+                <img src={src} alt="" />
+                <div className="visit">
+                    <a href={link} target="blank">
+                        <Button variant="contained">Visit Website
+                            <Link />
+                        </Button>
+                    </a>
+                </div>
+            </CardMedia>
+            <CardContent className="about-project">
+                <h3>{name}</h3>
+                <p className='about'>
+                    {about}
+                </p>
+                <p className="languages" style={{
+                 fontWeight:'600'
             }}>
-                Tech used: {languages}
-            </p>
-        
-    </div>
-</div>
+                    Tech used: {languages}
+                </p>
+
+
+            </CardContent>
+        </Card>
+    </>
+
 )
 }
 

@@ -35,8 +35,10 @@ const MyServices = () => {
                    <img src={webDesign} alt=""/>
                     </CardMedia>
                     <CardContent className="card-body">
-                        <h3>Visually Stunning designs</h3>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, accusamus delectus. Recusandae laborum nostrum similique incidunt! Eum explicabo architecto ab?
+                        <h3>Audience converting designs</h3>
+                    I can help you create visually stunning designs aimed at creating a great experience for visitors.
+                     Carefully structuring it to convince the audience to take action
+                     
                     </CardContent>
                 </Card>
 
@@ -46,7 +48,7 @@ const MyServices = () => {
                     </CardMedia>
                     <CardContent className="card-body">
                         <h3>Interactive UI</h3>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, accusamus delectus. Recusandae laborum nostrum similique incidunt! Eum explicabo architecto ab?
+                       
                     </CardContent>
                 </Card>
 
@@ -56,7 +58,7 @@ const MyServices = () => {
                     </CardMedia>
                     <CardContent className="card-body">
                         <h3>Responsive Web Apps</h3>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, accusamus delectus. Recusandae laborum nostrum similique incidunt! Eum explicabo architecto ab?
+                       Your website will be optimized and designed for a range of devices
                     </CardContent>
                 </Card>
                 
@@ -66,7 +68,7 @@ const MyServices = () => {
                     </CardMedia>
                     <CardContent className="card-body">
                         <h3>Fast Websites</h3>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, accusamus delectus. Recusandae laborum nostrum similique incidunt! Eum explicabo architecto ab?
+
                     </CardContent>
                 </Card>
                 

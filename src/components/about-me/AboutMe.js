@@ -23,8 +23,9 @@ const AboutMe = () => {
                  <div className="container">
                  <h1 className="section-title">Nice to meet you.</h1>
                  <div className="content">
-                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure veniam modi est ea quasi. Sint, facilis! Sapiente deserunt minus tempora asperiores ducimus facilis nulla distinctio, autem dolores optio ut vitae.
-                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore perspiciatis voluptatem error excepturi vel eligendi expedita, enim ducimus illum odit veniam magni aliquam? Nesciunt error illo quibusdam, ipsa cum libero nisi possimus harum expedita vitae? Pariatur quas voluptate, molestiae facere eos maxime repellendus, asperiores molestias minima adipisci atque, libero autem.
+                     I'm a student in nigeria, i have 3+ years of experience in front-end development already venturing into fullstack development. I have always been interested in programming 
+                     since i was little so i'm really passionate about what i do i just love problem-solving and that creative experience. I belive you will be making the right choice by hiring me to 
+                     bring your amazing idea to life. 
                  </div>
                  </div>
             </div>         
