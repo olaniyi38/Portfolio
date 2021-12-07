@@ -12,7 +12,7 @@ const Contact = () => {
                 to life. I'm Just an E-mail away.
 
                 </p>
-            <a href="mailto:sodiqalao38@gmail.com " target='blank'>                  ">
+            <a href="mailto:sodiqalao38@gmail.com " target='blank'>                  
             <Button size="large" variant="contained" color="primary">Start a conversation</Button>
             </a>
             </div>
