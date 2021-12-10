@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.8635791d.chunk.css",
+    "main.js": "/Portfolio/static/js/main.11737902.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.11737902.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.ceb7bd74.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.ceb7bd74.js.map",
+    "static/js/2.7dc864fc.chunk.js": "/Portfolio/static/js/2.7dc864fc.chunk.js",
+    "static/js/2.7dc864fc.chunk.js.map": "/Portfolio/static/js/2.7dc864fc.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "static/css/main.8635791d.chunk.css.map": "/Portfolio/static/css/main.8635791d.chunk.css.map",
+    "static/js/2.7dc864fc.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.7dc864fc.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/Portfolio/static/media/Roboto-Black.2a428584.ttf",
+    "static/media/easy-bank.0b123ec5.png": "/Portfolio/static/media/easy-bank.0b123ec5.png",
+    "static/media/fast-access.2b5f20ad.png": "/Portfolio/static/media/fast-access.2b5f20ad.png",
+    "static/media/hello.e007fc4c.png": "/Portfolio/static/media/hello.e007fc4c.png",
+    "static/media/responsive.7e91ca87.png": "/Portfolio/static/media/responsive.7e91ca87.png",
+    "static/media/room-homepage.c9404994.jpg": "/Portfolio/static/media/room-homepage.c9404994.jpg",
+    "static/media/task-tracker.36e02159.png": "/Portfolio/static/media/task-tracker.36e02159.png",
+    "static/media/ui-design.b89cd161.png": "/Portfolio/static/media/ui-design.b89cd161.png",
+    "static/media/wave (1).52757c24.svg": "/Portfolio/static/media/wave (1).52757c24.svg",
+    "static/media/web-design.9be7c478.png": "/Portfolio/static/media/web-design.9be7c478.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ceb7bd74.js",
+    "static/js/2.7dc864fc.chunk.js",
+    "static/css/main.8635791d.chunk.css",
+    "static/js/main.11737902.chunk.js"
+  ]
+}
